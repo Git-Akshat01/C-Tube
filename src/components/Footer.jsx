@@ -8,14 +8,7 @@ import {
   Input,
   Text,
 } from "@chakra-ui/react";
-import {
-  AiOutlineSend,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillYoutube,
-  AiFillGithub,
-  AiOutlineLinkedin,
-} from "react-icons/ai";
+import { AiOutlineSend } from "react-icons/ai";
 import React from "react";
 
 const Footer = () => {
@@ -23,7 +16,11 @@ const Footer = () => {
     <Box bgColor={"blackAlpha.900"} minH={"40"} p={"16"} color={"white"}>
       <Stack direction={["column", "row"]}>
         <VStack alignItems={"stretch"} w={"full"}>
-          <Heading size={"md"} textTransform={"uppercase"} textAlign={["center", "left"]}>
+          <Heading
+            size={"md"}
+            textTransform={"uppercase"}
+            textAlign={["center", "left"]}
+          >
             Subscribe to get Updates
           </Heading>
           <HStack borderBottom={"2px solid white"} py={"2"}>
